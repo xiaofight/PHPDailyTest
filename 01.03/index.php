@@ -21,7 +21,7 @@
 		if(GetUglyNumber_Solution($i)){
 			$n++;
 			if($n==$max){ 
-				echo $n."位的丑数是".$i;
+				echo "第".$n."位的丑数是".$i;
 				break;
 			}
 		}
